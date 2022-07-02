@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PositionalAudio Tutorial</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="textContainer">
+    <h1> PositionalAudio Tutorial </h1>
+    <h2> Audio </h2>
+    <h4>
+      Audio : 화면 전체에서 소리가 나오는 일반적인 Audio <br/>
+      PositionalAudio : 3차원의 특정 위치 혹은 사물에서 소리가 나오는 Audio <br/>
+    </h4>
+    <p>
+      AudioListener : virtual listener, 오디오 엔티티에 대한 필수 생성자 매개 변수, 대부분 camera의 child<br/>
+      AudioAnalyser : AnalyserNode를 사용하여 오디오 데이터를 분석 <br/>
+      AudioContext : context 설정, AudioListener 및 AudioLoader 클래스에서 내부적으로 사용<br/>
+    </p>
+    
+    <p>
+      Three.js 에서 Audio는 HTML5 규약인 Web Audio API를 사용한다. <br/>
+      Audio는 화면 전체에서 소리가 나오는 일반적인 Audio와 
+      3차원의 특정 위치 혹은 사물에서 소리가 나오는 PositionalAudio가 있다. <br/>
+      Three.js 에서 Audio를 사용하기 위해서 Camera에 AudioListener를 설치해야 한다.<br/>
+    </p>
+    
+    <h2> PositionalAudio </h2>
+     <p>
+       소리를 내는 물체와 가까워짐에 따라 소리가 커지고, 물체에서 멀어지면 소리가 작아진다. <br/>
+       또한 물체의 위치에 따라 좌우 스피커의 음량도 달라진다. <br/>
+     </p>
+    
+    <h3> 왼쪽 위의 Go 버튼을 눌러 다음 화면으로 이동하고 PositionalAudio를 직접 이해해 보세요! </h3>
+    
+  </div>
+
+  <form method="get" action="positional_audio.html">
+    <button class="button"> <span>GO</span> </button>
+  </form> 
+  
+</body>
+
+</html>
