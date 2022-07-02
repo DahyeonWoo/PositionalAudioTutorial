@@ -54,20 +54,20 @@ npx http-server -p 원하는 포트번호
 ### 1. Index 페이지
 
 - 프로젝트의 주제 그리고 제작자의 학번과 이름을 화면에 띄운다.
-![Index](/result/one.png)
+![Index](/img/1.png)
 
 ### 2. PositionalAudio 설명 페이지
 
 - Audio와 Positional Audio의 차이에 대해 설명한다.
 - Three.js에서 Audio를 사용하는 방법에 대해 설명한다.
 - PostionalAudio에 대해 자세히 설명한다.
-![PositionalAudioIntro](/result/two.png)
+![PositionalAudioIntro](/img/2.png)
 
 ### 3. PositionalAudio 페이지
 
 - PositionalAudio를 직접 느껴볼 수 있다. 물체와 가까워짐에 따라 소리가 커지고, 물체에서 멀어지면 소리가 작아진다. 또한 물체의 위치에 따라 좌우 스피커의 음량도 달라진다.
-![PositionalAudio](/result/three.png)
-![PositionalAudio](/result/four.png)
+![PositionalAudio](/img/3.png)
+![PositionalAudio](/img/4.png)
 
 ---
 
